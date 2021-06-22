@@ -1,0 +1,28 @@
+.bg-blue {
+  background: #4cb5d3;
+}
+
+.nav {
+  font-family: "Arimo", sans-serif;
+}
+
+.nav-item {
+  margin: 0 2px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  padding: 8px 16px !important;
+  border-radius: 4px;
+}
+
+.navbar-brand,
+.nav-link {
+  font-size: 17px;
+  letter-spacing: 2px !important;
+}
+
+.nav-link:hover {
+  background: #ffffff;
+  color: #4cb5d3 !important;
+}
