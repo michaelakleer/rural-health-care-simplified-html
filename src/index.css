@@ -1,0 +1,21 @@
+body {
+  background: #4cb5d3;
+  padding: 0 50px;
+}
+
+.home-one {
+  text-align: right;
+  line-height: 50px;
+  padding: 260px 0;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  padding-left: 340px;
+}
+
+.pdf {
+  background: #eeeeee;
+}
