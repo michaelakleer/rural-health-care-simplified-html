@@ -134,6 +134,17 @@ h3 {
   color: #4cb5d3;
 }
 
+.event-time h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.event-time p {
+  padding: 5px 0;
+  margin-bottom: 0 !important;
+}
+
 .final-link,
 .exec-link {
   width: 50%;
@@ -142,4 +153,5 @@ h3 {
   border-radius: 8px;
   padding: 4px;
   box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+  text-align: center;
 }
