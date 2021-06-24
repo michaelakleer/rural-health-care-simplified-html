@@ -6,7 +6,7 @@ body {
 .home-one {
   text-align: right;
   line-height: 50px;
-  padding: 260px 0;
+  padding: 230px 0;
 }
 
 h1 {
@@ -16,6 +16,130 @@ h1 {
   padding-left: 340px;
 }
 
-.pdf {
-  background: #eeeeee;
+h3 {
+  margin-top: -65px;
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  text-shadow: 5px 5px #4cb5d3;
+}
+
+.pdfs,
+.events {
+  padding: 20px 50px;
+  border-radius: 8px;
+  background: #eee;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+}
+
+.events {
+  width: 45%;
+  margin: 10px 10px 10px 20px;
+}
+
+.pdfs {
+  width: 50%;
+  margin: 10px 20px 10px 10px;
+}
+
+.pdf-icon {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: auto;
+}
+
+.pdf-description {
+  font-size: 17px;
+  padding-top: 11px;
+  text-align: justify;
+  color: #585858;
+  font-size: 17px;
+}
+
+.pdf-container {
+  margin-bottom: 10px;
+}
+
+.exec-link,
+.final-link {
+  width: 50%;
+  font-size: 18px;
+  background: #4cb5d3;
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+}
+
+.exec-link {
+  margin: 5px 8px 0 0;
+}
+
+.final-link {
+  margin: 5px 0 0 8px;
+}
+
+.exec-link .link,
+.final-link .link {
+  color: #fff;
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 1px 1px #575757;
+}
+
+.report-image,
+.wab-kinew {
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+}
+
+.report-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin: 10px 15px 5px 0;
+}
+
+.wab-kinew {
+  width: 188px;
+  height: 243px;
+}
+
+.box-one {
+  margin-bottom: 10px;
+}
+
+.box-two {
+  padding: 5px 0 0 15px;
+  color: #585858;
+}
+
+.box-two a {
+  color: #4cb5d3;
+  text-decoration: none;
+}
+
+.box-two a:hover {
+  text-decoration: underline;
+}
+
+.box-two p {
+  font-size: 17px;
+}
+
+.event-time {
+  color: #4cb5d3;
+}
+
+.final-link,
+.exec-link {
+  width: 50%;
+  font-size: 18px;
+  background: #4cb5d3;
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
 }
