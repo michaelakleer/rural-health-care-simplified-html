@@ -3,6 +3,10 @@ body {
   padding: 0 50px;
 }
 
+.btn-blue {
+  background: #4cb5d3;
+}
+
 .home-one {
   text-align: right;
   line-height: 50px;
@@ -156,9 +160,22 @@ h1 {
   text-align: center;
 }
 
+.event-three h2 {
+  color: red;
+}
+
 .home-three h2 {
   text-align: center;
   padding: 50px 0 20px;
   color: #fff;
   text-shadow: 2px 2px #575757;
+}
+
+.change-container {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 50px;
 }
