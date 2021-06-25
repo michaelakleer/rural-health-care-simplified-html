@@ -1,0 +1,73 @@
+body {
+  background: #4cb5d3;
+  padding: 0 120px;
+}
+
+.about-one {
+  padding-top: 150px;
+  text-align: right;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.about-one h1,
+.about-one h2 {
+  line-height: 50px;
+}
+
+.about-one h1 {
+  text-shadow: 2px 2px #575757;
+}
+
+.about-one p {
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.about-two {
+  padding-bottom: 30px;
+}
+
+.about-two .container-one,
+.about-two .container-two {
+  padding: 50px;
+  border-radius: 8px;
+  background: #eee;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+}
+
+.about-two .container-one {
+  margin: 30px 0 10px;
+}
+
+.about-two .container-two {
+  margin-top: 30px;
+}
+
+.chelsea-photo,
+.alicia-photo {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+}
+
+.chelsea-photo {
+  float: left;
+  margin-right: 22px;
+}
+
+.bio-two {
+  margin-left: 20px;
+  padding-top: 20px;
+  color: #585858;
+}
+
+.about-two a {
+  color: #4cb5d3;
+  text-decoration: none;
+}
+
+.about-two a:hover {
+  text-decoration: underline;
+}
