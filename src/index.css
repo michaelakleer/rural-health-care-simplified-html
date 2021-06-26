@@ -324,3 +324,6 @@ h1 {
   z-index: 33;
   position: absolute;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
