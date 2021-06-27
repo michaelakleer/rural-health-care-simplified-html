@@ -326,4 +326,22 @@ h1 {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  h1 {
+    padding-left: 5px;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .home-four {
+    padding: 30px 0;
+    border-radius: 0;
+  }
 }
