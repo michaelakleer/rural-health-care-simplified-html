@@ -112,6 +112,11 @@ body {
     margin-bottom: 30px;
   }
 
+  .chelsea-photo {
+    position: relative;
+    left: 260px;
+  }
+
   .name {
     font-size: 30px;
     font-weight: 700;
