@@ -205,7 +205,6 @@ h1 {
   background: #f7f7f7;
   line-height: 25px;
   box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
-  border-radius: 8px;
 }
 
 .container-timeline h1 {
@@ -245,7 +244,6 @@ h1 {
   display: block;
   width: 25%;
   padding-right: 90px;
-  position: absolute;
 }
 
 .timeline > li .tmtime span {
@@ -325,6 +323,16 @@ h1 {
   position: absolute;
 }
 
+@media (min-width: 1025px) {
+  .container-timeline {
+    border-radius: 8px;
+  }
+
+  .timeline > li .tmtime {
+    position: absolute;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
     padding: 0;
@@ -332,8 +340,25 @@ h1 {
     width: 100%;
   }
 
+  .home-one {
+    padding: 19rem 18px 14rem;
+  }
+
   h1 {
-    padding-left: 5px;
+    padding-right: 18px;
+    padding-left: 30px;
+  }
+
+  .exec-link {
+    margin-right: 20px;
+  }
+
+  .final-link {
+    margin-left: 20px;
+  }
+
+  .box-two {
+    font-size: 18px;
   }
 
   .d-flex {
@@ -380,11 +405,51 @@ h1 {
     text-align: center;
   }
 
-  :before {
+  .container-timeline {
+    box-shadow: none;
+  }
+
+  .container-timeline h1 {
+    padding: 0;
+    font-size: 40px;
+  }
+
+  ::before {
     display: none;
+  }
+
+  .main {
+    margin: 0;
+    width: 100%;
+    padding: 0 1.875em 0;
   }
 
   .icon-phone {
     display: none;
+  }
+
+  .timeline > li .label {
+    margin: 0;
+    padding: 13px 8px 1px;
+  }
+
+  .timeline > li .label:after {
+    display: none;
+  }
+
+  .timeline > li .tmtime {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+
+  .timeline > li .tmtime span {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .home-four li {
+    margin-bottom: 15px;
   }
 }
