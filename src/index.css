@@ -480,6 +480,11 @@ h1 {
     padding-left: 30px;
   }
 
+  .home-two h3 {
+    margin: -55px auto;
+    font-size: 50px;
+  }
+
   .d-flex {
     flex-direction: column;
   }
