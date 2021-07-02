@@ -476,17 +476,15 @@ h1 {
 
   h1 {
     text-align: center;
-    padding-right: 18px;
-    padding-left: 30px;
+    padding: 0;
   }
 
   .home-two h3 {
-    margin: -55px auto;
-    font-size: 50px;
+    text-align: center;
   }
 
   .d-flex {
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
   .exec-link,
@@ -508,8 +506,12 @@ h1 {
   }
 
   .home-four {
-    padding: 30px 0;
+    padding: 30px 0 0;
     border-radius: 0;
+  }
+
+  .title-download {
+    margin-top: -30px;
   }
 
   .pdfs,
@@ -521,7 +523,7 @@ h1 {
 
   .pdfs {
     margin-bottom: 37px;
-    padding: 20px;
+    padding: 10px;
   }
 
   .events {
@@ -550,10 +552,12 @@ h1 {
   .change-container {
     margin: 0;
     width: 100%;
+    padding: 0 20px;
   }
 
   .container-timeline {
     box-shadow: none;
+    padding-bottom: 15px;
   }
 
   .container-timeline h1 {
@@ -568,7 +572,7 @@ h1 {
   .main {
     margin: 0;
     width: 100%;
-    padding: 0 1.875em 0;
+    padding: 0 15px 0;
   }
 
   .icon-phone {
@@ -593,7 +597,7 @@ h1 {
   .timeline > li .tmtime span {
     display: block;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .home-four li {
