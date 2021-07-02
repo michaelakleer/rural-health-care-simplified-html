@@ -122,3 +122,63 @@ body {
     font-weight: 700;
   }
 }
+
+@media (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+
+  .about-one {
+    text-align: center;
+    padding: 7rem 18px 3rem;
+  }
+
+  .about-one h1 {
+    font-size: 40px;
+  }
+
+  .about-one h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .about-two {
+    padding-bottom: 20px;
+  }
+
+  .about-two .container-one,
+  .about-two .container-two {
+    border-radius: 0px;
+    padding: 10px 20px;
+    text-align: justify;
+  }
+
+  .about-two .container-one {
+    margin-bottom: 70px;
+  }
+
+  .about-two .container-two {
+    flex-direction: column;
+  }
+
+  .image-one,
+  .image-two {
+    height: auto;
+    margin: -50px auto 0;
+  }
+
+  .image-one {
+    margin-bottom: 30px;
+  }
+
+  .chelsea-photo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .name {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
