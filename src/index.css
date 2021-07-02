@@ -461,14 +461,6 @@ h1 {
     width: 100%;
   }
 
-  .navbar-brand {
-    font-size: 15px;
-  }
-
-  .mobile-break {
-    display: block;
-  }
-
   .home-one {
     padding: 12rem 18px 8rem;
     line-height: 40px;
@@ -508,10 +500,6 @@ h1 {
   .home-four {
     padding: 30px 0 0;
     border-radius: 0;
-  }
-
-  .title-download {
-    margin-top: -30px;
   }
 
   .pdfs,

@@ -32,3 +32,13 @@ footer {
   text-align: center;
   color: #ffffff;
 }
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 15px;
+  }
+
+  .mobile-break {
+    display: block;
+  }
+}
