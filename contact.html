@@ -55,35 +55,24 @@
     </nav>
     <section>
       <div class="contact-one">
-        <div class="contact-container">
+        
           <h1>Contact Form</h1>
 <div class="row name">
-          <div class="col-6">
+          <div class="col-sm-6 first-name">
             <label class="form-label">First Name</label>
-            <input type="text" class="form-control" placeholder="First Name" />
+            <input type="text" class="form-control"  />
           </div>
-          <div class="col-6">
+          <div class="col-sm-6 last-name">
             <label class="form-label">Last Name</label>
-            <input type="text" class="form-control" placeholder="Last Name" />
+            <input type="text" class="form-control"  />
           </div>
           </div>
-          <div class="row">
-            <div class="col-5">
+          <div class="row ">
+            <div class="col-sm-5">
           <h3>Preferred method of contact:</h3>
 </div>
-<div class="col-6">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault1"
-            />
-            <label class="form-check-label" for="flexRadioDefault1">
-              Email
-            </label>
-          </div>
-          <div class="form-check">
+<div class="col-sm-6 preferred-contact">
+  <div class="form-check">
             <input
               class="form-check-input"
               type="radio"
@@ -92,9 +81,22 @@
               checked
             />
             <label class="form-check-label" for="flexRadioDefault2">
+              Email
+            </label>
+            </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label class="form-check-label" for="flexRadioDefault1">
               Phone
             </label>
           </div>
+          
+          
           </div>
           <div class="email">
             <label class="form-label">Email</label>
@@ -114,7 +116,7 @@
               placeholder="123-456-7890"
             />
           </div>
-          <div class="form-group">
+          <div class="form-group message">
             <label for="exampleFormControlTextarea2">Message</label>
             <textarea
               class="form-control rounded-0"
@@ -122,9 +124,12 @@
               rows="3"
             ></textarea>
           </div>
-        </div>
+        <button class="btn">Submit</button>
       </div>
     </section>
+    <footer>
+        <div className="title"> © 2021 Keeping Health Care Close to Home</div>
+      </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

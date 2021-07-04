@@ -1,17 +1,21 @@
 body {
-  margin: 90px 20px;
+  margin: 80px 20px 0;
   background: #4cb5d3;
   font-family: "Ubuntu", sans-serif;
 }
 
 .contact-one {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
-  padding: 40px 128px !important;
+  padding: 20px 100px;
   background: #f7f7f7;
   line-height: 25px;
   box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
   border-radius: 8px;
+}
+
+section {
+  margin-bottom: 15px;
 }
 
 .form-label,
@@ -21,6 +25,10 @@ h3 {
 }
 
 h1 {
+  color: #4cb5d3;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #cdcdcd;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -31,6 +39,71 @@ h3 {
 
 .name,
 .phone,
-.email {
+.email,
+.message {
   margin-bottom: 20px;
+}
+
+.btn {
+  padding: 4px 10px !important;
+  border-color: #4cb5d3;
+  color: #4cb5d3;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  padding: 4px 10px !important;
+  background: #4cb5d3;
+  color: #fff;
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  body {
+    margin: 120px 20px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    margin: 130px 20px 0;
+  }
+
+  .contact-one {
+    width: 90%;
+    padding: 40px 100px !important;
+  }
+
+  section {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    margin-top: 90px;
+  }
+
+  .contact-one {
+    width: 100%;
+    padding: 25px 10px;
+  }
+
+  h1 {
+    font-size: 40px;
+    padding: 0 10px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .preferred-contact {
+    text-align: center;
+    padding: 0 130px;
+  }
+
+  .first-name {
+    margin-bottom: 5px;
+  }
 }
