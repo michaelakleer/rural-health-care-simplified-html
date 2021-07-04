@@ -1,0 +1,36 @@
+body {
+  margin: 90px 20px;
+  background: #4cb5d3;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.contact-one {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 128px !important;
+  background: #f7f7f7;
+  line-height: 25px;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+  border-radius: 8px;
+}
+
+.form-label,
+.form-check,
+h3 {
+  color: #585858;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.name,
+.phone,
+.email {
+  margin-bottom: 20px;
+}
