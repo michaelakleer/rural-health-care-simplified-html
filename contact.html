@@ -57,14 +57,15 @@
       <div class="contact-one">
         
           <h1>Contact Form</h1>
+          <form action="">
 <div class="row name">
-          <div class="col-sm-6 first-name">
-            <label class="form-label">First Name</label>
-            <input type="text" class="form-control"  />
+          <div class="col-sm-6 form-group first-name">
+            <label for="First name" class="form-label">First Name</label>
+            <input type="text" id="firstName" name="First name" class="form-control"  />
           </div>
-          <div class="col-sm-6 last-name">
-            <label class="form-label">Last Name</label>
-            <input type="text" class="form-control"  />
+          <div class="col-sm-6 form-group last-name">
+            <label for="Last name" class="form-label">Last Name</label>
+            <input type="text" id="lastName" name="Last name" class="form-control"  />
           </div>
           </div>
           <div class="row ">
@@ -76,11 +77,11 @@
             <input
               class="form-check-input"
               type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault2"
+              name="contact"
+              id="contactChoice1"
               checked
             />
-            <label class="form-check-label" for="flexRadioDefault2">
+            <label class="form-check-label" for="contactChoice1">
               Email
             </label>
             </div>
@@ -88,44 +89,52 @@
             <input
               class="form-check-input"
               type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault1"
+              name="contact"
+              id="contactChoice2"
             />
-            <label class="form-check-label" for="flexRadioDefault1">
+            <label class="form-check-label" for="contactChoice2">
               Phone
             </label>
           </div>
-          
-          
           </div>
-          <div class="email">
-            <label class="form-label">Email</label>
+
+
+          <div class="form-group email">
+            <label for="Email" class="form-label">Email</label>
             <input
               type="email"
               class="form-control"
-              id="exampleFormControlInput1"
+              id="email"
+              name="Email"
               placeholder="name@example.com"
             />
           </div>
-          <div class="phone">
-            <label class="form-label">Phone</label>
+
+          <div class="form-group phone">
+            <label for="Phone" class="form-label">Phone</label>
             <input
               type="tel"
               class="form-control"
-              id="exampleFormControlInput1"
+              id="phone"
+              name="Phone"
               placeholder="123-456-7890"
             />
           </div>
+
           <div class="form-group message">
-            <label for="exampleFormControlTextarea2">Message</label>
+            <label for="Message">Message</label>
             <textarea
+            name="Message"
               class="form-control rounded-0"
-              id="exampleFormControlTextarea2"
+              id="message"
               rows="3"
             ></textarea>
           </div>
-        <button class="btn">Submit</button>
+
+        <button type="submit" class="btn">Submit</button>
+        </form>
       </div>
+
     </section>
     <footer>
         <div className="title"> © 2021 Keeping Health Care Close to Home</div>
