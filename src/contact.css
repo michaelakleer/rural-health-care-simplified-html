@@ -1,5 +1,5 @@
 body {
-  margin: 80px 20px 0;
+  margin: 100px 20px 0;
   background: #4cb5d3;
   font-family: "Ubuntu", sans-serif;
 }
@@ -7,7 +7,7 @@ body {
 .contact-one {
   width: 70%;
   margin: 0 auto;
-  padding: 20px 100px;
+  padding: 30px 100px 0;
   background: #f7f7f7;
   line-height: 25px;
   box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
@@ -49,7 +49,7 @@ h3 {
   border-color: #4cb5d3;
   color: #4cb5d3;
   width: 20%;
-  margin: 0 auto;
+  margin: 0 auto 8px;
 }
 
 .btn:hover {
@@ -58,9 +58,39 @@ h3 {
   color: #fff;
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) {
-  body {
-    margin: 120px 20px 0;
+#status {
+  width: 70%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+#status.success {
+  background-color: #fff;
+  color: #4cb5d3;
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
   }
 }
 

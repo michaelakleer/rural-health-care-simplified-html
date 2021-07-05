@@ -57,7 +57,9 @@
       <div class="contact-one">
         
           <h1>Contact Form</h1>
-          <form action="">
+          <form action="https://formspree.io/f/mayabvqp"
+  method="POST"
+  id="my-form">
 <div class="row name">
           <div class="col-sm-6 form-group first-name">
             <label for="First name" class="form-label">First Name</label>
@@ -72,34 +74,32 @@
             <div class="col-sm-5">
           <h3>Preferred method of contact:</h3>
 </div>
-<div class="col-sm-6 preferred-contact">
+<div class="col-sm-2 preferred-contact">
   <div class="form-check">
             <input
               class="form-check-input"
               type="radio"
-              name="contact"
-              id="contactChoice1"
+              name="Preferred method of contact"
+              value="Email"
               checked
             />
-            <label class="form-check-label" for="contactChoice1">
               Email
-            </label>
             </div>
+</div>
+<div class="col-sm-3 preferred-contact">
           <div class="form-check">
             <input
               class="form-check-input"
               type="radio"
-              name="contact"
-              id="contactChoice2"
+              name="Preferred method of contact"
+              value="Phone"
             />
-            <label class="form-check-label" for="contactChoice2">
               Phone
-            </label>
           </div>
           </div>
 
-
-          <div class="form-group email">
+          <div class="row">
+          <div class="form-group col-sm-6 email">
             <label for="Email" class="form-label">Email</label>
             <input
               type="email"
@@ -110,7 +110,7 @@
             />
           </div>
 
-          <div class="form-group phone">
+          <div class="form-group col-sm-6 phone">
             <label for="Phone" class="form-label">Phone</label>
             <input
               type="tel"
@@ -120,7 +120,7 @@
               placeholder="123-456-7890"
             />
           </div>
-
+</div>
           <div class="form-group message">
             <label for="Message">Message</label>
             <textarea
@@ -134,8 +134,9 @@
         <button type="submit" class="btn">Submit</button>
         </form>
       </div>
-
+<div id="status"></div>
     </section>
+    
     <footer>
         <div className="title"> © 2021 Keeping Health Care Close to Home</div>
       </footer>
