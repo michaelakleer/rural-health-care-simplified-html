@@ -40,7 +40,7 @@ h1 {
 
 .events {
   width: 45%;
-  margin: 10px 10px 10px 20px;
+  margin: 10px 0 10px 20px;
 }
 
 .pdfs {
@@ -162,6 +162,10 @@ h1 {
 
 .event-three h2 {
   color: red;
+}
+
+.home-three {
+  display: none;
 }
 
 .home-three h2 {
